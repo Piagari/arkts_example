@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "mine_title_kc",
+      "value": "课程"
+    },
+    {
+      "name": "mine_title_ks",
+      "value": "考试"
+    },
+    {
+      "name": "mine_title_ct",
+      "value": "错题"
+    },
+    {
+      "name": "mine_title_px",
+      "value": "培训"
+    },
+    {
+      "name": "mine_title_sz",
+      "value": "设置"
+    },
+    {
+      "name": "mine_set_grxx",
+      "value": "信息修改"
+    },
+    {
+      "name": "mine_set_xgmm",
+      "value": "修改密码"
+    },
+    {
+      "name": "mine_set_ysxy",
+      "value": "隐私协议"
+    },
+    {
+      "name": "mine_set_qchc",
+      "value": "清除缓存"
+    },
+    {
+      "name": "mine_set_zxzh",
+      "value": "注销账号"
+    },
+    {
+      "name": "mine_set_tcdl",
+      "value": "退出登录"
+    }
+  ]
+}

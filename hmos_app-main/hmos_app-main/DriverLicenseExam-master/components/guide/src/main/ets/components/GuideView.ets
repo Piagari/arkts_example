@@ -1,0 +1,224 @@
+import { GuideService } from '../model/GuideService'
+import { DRIVE_STAGE , LICENSE_TYPE, LICENSE_LIST_ONE, LICENSE_LIST_TWO, LICENSE_CARD } from '../model/model'
+import { SelectCard } from './SelectCard'
+import { CommonConstants } from '../constants/CommonContants'
+
+@ComponentV2
+export struct GuideView {
+  @Local activeId:DRIVE_STAGE = 0;
+  @Local bottomRectHeight: number = 0;
+  @Local topRectHeight: number = 0;
+  @Event goCitySelectPage:VoidCallback;
+  @Event completed:VoidCallback;
+  guideService: GuideService = GuideService.instance;
+
+  aboutToAppear(): void {
+    this.bottomRectHeight = AppStorage.get('bottomRectHeight') || 0;
+    this.topRectHeight = AppStorage.get('topRectHeight') || 0;
+  }
+
+  @Builder
+  titleView(title: Resource) {
+    Text(title)
+      .width(CommonConstants.FULL_WIDTH)
+      .fontColor('rgba(0,0,0,0.9)')
+      .fontSize(14)
+      .margin({
+        bottom:12,
+        top: 24,
+      })
+  }
+
+  @Builder
+  selectButton(buttonName: Resource, id:DRIVE_STAGE) {
+    Text(buttonName)
+      .layoutWeight(1)
+      .backgroundColor(id === this.activeId?'#64BB5C':'#E6E8E9')
+      .height(36)
+      .borderRadius(16)
+      .fontColor(id === this.activeId?'#fff':'rgba(0,0,0,0.9)')
+      .fontSize(14)
+      .textAlign(TextAlign.Center)
+      .onClick(() => {
+        this.activeId = id;
+        this.guideService.updateDriveStage(id)
+      })
+  }
+
+  @Builder
+  selectCity() {
+    Row() {
+      Row() {
+        Image($r('app.media.locations'))
+          .width(16)
+          .height(16)
+          .margin({
+            right:4
+          })
+        Text(this.guideService.getGuideData().city || $r('app.string.please_select_city'))
+          .fontSize(14)
+          .fontColor('rgba(0,0,0,0.9)')
+      }
+      Row() {
+        Text($r('app.string.go_select'))
+          .fontSize(12)
+          .fontColor('rgba(0,0,0,0.6)')
+          .margin({
+            right:4
+          })
+        Image($r('app.media.ic_right_arrow_lined'))
+          .height(16)
+          .width(16)
+      }
+    }
+    .width(CommonConstants.FULL_WIDTH)
+    .height(40)
+    .justifyContent(FlexAlign.SpaceBetween)
+    .backgroundColor(Color.White)
+    .borderRadius(16)
+    .padding({
+      left: 12,
+      right: 12
+    })
+    .onClick(() => {
+      this.goCitySelectPage();
+    })
+  }
+
+  build() {
+    Stack() {
+      Image($r('app.media.guide_bg'))
+        .width(CommonConstants.FULL_WIDTH)
+        .height(268)
+      Scroll() {
+        Column() {
+          Column() {
+            Text($r('app.string.guide_title'))
+              .height(32)
+              .width(CommonConstants.FULL_WIDTH)
+              .fontSize(24)
+              .fontColor('rgba(0,0,0,0.9)')
+              .margin({
+                top: px2vp(this.topRectHeight) + 12
+              })
+            this.titleView($r('app.string.select_city'))
+            this.selectCity()
+
+            this.titleView($r('app.string.select_license_type'))
+            Row({space:12}) {
+              ForEach(LICENSE_LIST_ONE,(item: LICENSE_CARD) => {
+                SelectCard({
+                  value: item.value,
+                  contentWidth:item.width || 0
+                }) {
+                  Column() {
+                    Image(item.icon)
+                      .height(29)
+                      .margin({
+                        bottom:14,
+                        top:31
+                      })
+
+                    Row() {
+                      Text(item.name)
+                        .fontColor('rgba(0,0,0,0.9)')
+                        .fontSize(12)
+
+                      Text(item.description)
+                        .fontColor('rgba(0,0,0,0.6)')
+                        .fontSize(12)
+                        .margin({
+                          left:10
+                        })
+                    }
+                  }
+                  .width(CommonConstants.FULL_WIDTH)
+                  .height(CommonConstants.FULL_HEIGHT)
+                  .onClick(() => {
+                    this.guideService.updateLicenseType(item.value)
+                  })
+                }
+              }, (item: LICENSE_CARD) => JSON.stringify(item))
+            }
+            .height(102)
+            .width(CommonConstants.FULL_WIDTH)
+            .margin({
+              bottom:12
+            })
+
+            Row({space:12}) {
+              ForEach(LICENSE_LIST_TWO, (item: LICENSE_CARD) => {
+                SelectCard({
+                  value: item.value
+                }) {
+                  Column() {
+                    Image(item.icon)
+                      .height(34)
+                      .margin({
+                        top:16,
+                        bottom:4
+                      })
+
+                    Text(item.name)
+                      .fontSize(12)
+                      .fontColor('rgba(0,0,0,0.9)')
+                      .margin({
+                        bottom:4
+                      })
+
+                    Text(item.description)
+                      .fontSize(12)
+                      .fontColor('rgba(0,0,0,0.6)')
+                  }
+                  .width(CommonConstants.FULL_WIDTH)
+                  .height(CommonConstants.FULL_HEIGHT)
+                  .onClick(() => {
+                    this.guideService.updateLicenseType(item.value)
+                  })
+                }
+              }, (item: LICENSE_CARD) => JSON.stringify(item))
+            }
+            .height(102)
+            .width(CommonConstants.FULL_WIDTH)
+
+            this.titleView($r('app.string.select_drive_stage'))
+            Row({space:12}) {
+              this.selectButton($r('app.string.subject_one'), DRIVE_STAGE.SUBJECT_ONE)
+              this.selectButton($r('app.string.subject_two'), DRIVE_STAGE.SUBJECT_TWO)
+              this.selectButton($r('app.string.subject_three'), DRIVE_STAGE.SUBJECT_THREE)
+              this.selectButton($r('app.string.subject_four'), DRIVE_STAGE.SUBJECT_FOUR)
+            }
+          }
+          .width(CommonConstants.FULL_WIDTH)
+
+          Text($r('app.string.finished'))
+            .width(CommonConstants.FULL_WIDTH)
+            .height(40)
+            .borderRadius(20)
+            .fontColor(Color.White)
+            .backgroundColor('#64BB5C')
+            .textAlign(TextAlign.Center)
+            .onClick(() => {
+              this.guideService.changeGuidanceStatus();
+              if (this.guideService.isCompleteGuidance()) {
+                this.completed();
+              }
+            })
+            .margin({
+              bottom:px2vp(this.bottomRectHeight),
+              top:189
+            })
+        }
+        .width(CommonConstants.FULL_WIDTH)
+        .padding({
+          left: 16,
+          right: 16
+        })
+      }
+    }
+    .height(CommonConstants.FULL_WIDTH)
+    .width(CommonConstants.FULL_WIDTH)
+    .alignContent(Alignment.Top)
+    .backgroundColor('#F1F3F5')
+  }
+}

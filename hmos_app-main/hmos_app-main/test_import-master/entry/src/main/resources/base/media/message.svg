@@ -1,0 +1,26 @@
+<!--
+  -  Copyright (c) 2025 Huawei Device Co., Ltd.
+  -  Licensed under the Apache License, Version 2.0 (the "License");
+  -  you may not use this file except in compliance with the License.
+  -  You may obtain a copy of the License at
+  -
+  -      http://www.apache.org/licenses/LICENSE-2.0
+  -
+  -  Unless required by applicable law or agreed to in writing, software
+  -  distributed under the License is distributed on an "AS IS" BASIS,
+  -  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  -  See the License for the specific language governing permissions and
+  -  limitations under the License.
+  -
+  -->
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+>
+    <desc>
+        Created with Pixso.
+    </desc>
+    <defs/>
+    <path id="path-1"
+          d="M14 0C18.1422 0 21.5 3.23795 21.5 7.23215C21.5 11.2263 18.1422 14.4643 14 14.4643L12.992 14.4643L8.70111 18.4849C7.98877 19.1522 6.85016 18.5196 7.01636 17.6354L7.04138 17.5324L7.0556 17.4883C7.34528 16.6504 7.56946 15.9402 7.72784 15.3601L7.78412 15.1487L7.8241 14.9897C7.8609 14.8409 7.91217 14.6296 7.95007 14.4637L7.5 14.4643C3.35785 14.4643 0 11.2263 0 7.23215C0 3.23795 3.35785 0 7.5 0L14 0ZM7 7.47324C7 8.13892 6.44037 8.67859 5.75 8.67859C5.05963 8.67859 4.5 8.13892 4.5 7.47324C4.5 6.80753 5.05963 6.26788 5.75 6.26788C6.44037 6.26788 7 6.80753 7 7.47324ZM10.75 8.67859C11.4404 8.67859 12 8.13892 12 7.47324C12 6.80753 11.4404 6.26788 10.75 6.26788C10.0596 6.26788 9.5 6.80753 9.5 7.47324C9.5 8.13892 10.0596 8.67859 10.75 8.67859ZM17 7.47324C17 8.13892 16.4404 8.67859 15.75 8.67859C15.0596 8.67859 14.5 8.13892 14.5 7.47324C14.5 6.80753 15.0596 6.26788 15.75 6.26788C16.4404 6.26788 17 6.80753 17 7.47324Z"
+          clip-rule="evenodd" fill="#C0C2C4" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

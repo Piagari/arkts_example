@@ -1,0 +1,127 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\jiaze\\.ohos\\config\\default_OfficeAttendance_u9j4vA3ID9soecYx2VbQ1QkWZdAWRgzxUAcEoq0__ic=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B8188B42F4CC12349797FADB13B2F9290E979B732C984C9B688DCE3745283A443AFB54CB3A381CC",
+          "profile": "C:\\Users\\jiaze\\.ohos\\config\\default_OfficeAttendance_u9j4vA3ID9soecYx2VbQ1QkWZdAWRgzxUAcEoq0__ic=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\jiaze\\.ohos\\config\\default_OfficeAttendance_u9j4vA3ID9soecYx2VbQ1QkWZdAWRgzxUAcEoq0__ic=.p12",
+          "storePassword": "0000001B6F001632B73178E1DC1C2FBC6860E02A6C768103FFF93EB6DD28AF165849296424C54912541320"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.1(13)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        },
+        "targetSdkVersion": "5.1.1(19)"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "capabilities": [
+      {
+        "bundleName": "com.bitfun.coder.eval.office.attendance",
+        "config": [
+          {
+            "name": "Map Kit",
+            "capability": "com.huawei.service.mapkit"
+          }
+        ]
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "phone",
+      "srcPath": "./product/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common_lib",
+      "srcPath": "./commons/common_lib"
+    },
+    {
+      "name": "component_lib",
+      "srcPath": "./commons/component_lib"
+    },
+    {
+      "name": "network",
+      "srcPath": "./commons/network",
+    },
+    {
+      "name": "agency",
+      "srcPath": "./scenes/agency",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "schedule",
+      "srcPath": "./scenes/schedule",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "checkin",
+      "srcPath": "./scenes/checkin",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "account",
+      "srcPath": "./scenes/account",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

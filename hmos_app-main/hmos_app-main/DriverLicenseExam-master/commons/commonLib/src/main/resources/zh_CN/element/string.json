@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "user_name",
+      "value": "点击登录"
+    },
+    {
+      "name": "subject_one",
+      "value": "科目一"
+    },
+    {
+      "name": "subject_two",
+      "value": "科目二"
+    },
+    {
+      "name": "subject_three",
+      "value": "科目三"
+    },
+    {
+      "name": "subject_four",
+      "value": "科目四"
+    }
+  ]
+}

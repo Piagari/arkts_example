@@ -1,0 +1,80 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "guide_title",
+      "value": "guide title"
+    },
+    {
+      "name": "subject_one",
+      "value": "subject one"
+    },
+    {
+      "name": "subject_two",
+      "value": "subject two"
+    },
+    {
+      "name": "subject_three",
+      "value": "subject three"
+    },
+    {
+      "name": "subject_four",
+      "value": "subject four"
+    },
+    {
+      "name": "select_city",
+      "value": "select city"
+    },
+    {
+      "name": "select_license_type",
+      "value": "select license type"
+    },
+    {
+      "name": "select_drive_stage",
+      "value": "select drive stage"
+    },
+    {
+      "name": "little_car",
+      "value": "little car"
+    },
+    {
+      "name": "motorcycles",
+      "value": "motorcycles"
+    },
+    {
+      "name": "truck",
+      "value": "truck"
+    },
+    {
+      "name": "bus",
+      "value": "bus"
+    },
+    {
+      "name": "light_truck",
+      "value": "light truck"
+    },
+    {
+      "name": "finished",
+      "value": "finished"
+    },
+    {
+      "name": "please_select_city",
+      "value": "please select city"
+    },
+    {
+      "name": "go_select",
+      "value": "go select"
+    },
+    {
+      "name": "agcit_huawei_driver_license_exam_guide",
+      "value": "1.0.0"
+    },
+    {
+      "name": "agcittype_huawei_driver_license_exam_guide",
+      "value": "serviceComponent"
+    }
+  ]
+}

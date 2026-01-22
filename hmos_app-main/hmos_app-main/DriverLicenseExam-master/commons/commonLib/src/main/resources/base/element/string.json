@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "location_switch",
+      "value": "The location switch is off, please check the location settings"
+    },
+    {
+      "name": "internet_switch",
+      "value": "The network is disconnected, please check the network settings"
+    },
+    {
+      "name": "wifi_bluetooth_switch",
+      "value": "WiFi or Bluetooth is off, please check the settings"
+    },
+    {
+      "name": "user_name",
+      "value": "User name"
+    },
+    {
+      "name": "subject_one",
+      "value": "subject one"
+    },
+    {
+      "name": "subject_two",
+      "value": "subject two"
+    },
+    {
+      "name": "subject_three",
+      "value": "subject three"
+    },
+    {
+      "name": "subject_four",
+      "value": "subject four"
+    }
+  ]
+}

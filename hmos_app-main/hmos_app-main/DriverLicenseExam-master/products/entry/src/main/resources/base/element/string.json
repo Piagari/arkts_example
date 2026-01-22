@@ -1,0 +1,256 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Module_description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Label"
+    },
+    {
+      "name": "permission_reason_location",
+      "value": "permission_reason_location"
+    },
+    {
+      "name": "home_page",
+      "value": "home page"
+    },
+    {
+      "name": "mine",
+      "value": "mine"
+    },
+    {
+      "name": "user_name",
+      "value": "User_name"
+    },
+    {
+      "name": "huawei_user",
+      "value": "Huawei user"
+    },
+    {
+      "name": "get_mobile_number_error",
+      "value": "Failed to obtain the anonymous mobile number."
+    },
+    {
+      "name": "account_link",
+      "value": "account_link"
+    },
+    {
+      "name": "common_service",
+      "value": "common_service"
+    },
+    {
+      "name": "view_history",
+      "value": "view_history"
+    },
+    {
+      "name": "setting",
+      "value": "setting"
+    },
+    {
+      "name": "account_unlink",
+      "value": "account_unlink"
+    },
+    {
+      "name": "contact_us",
+      "value": "contact_us"
+    },
+    {
+      "name": "app_user_agreement",
+      "value": "User Service Agreement, "
+    },
+    {
+      "name": "app_privacy_policy",
+      "value": "Privacy Policy,"
+    },
+    {
+      "name": "huaweiId_user_authentication_protocol",
+      "value": "HUAWEI ID User Authentication Agreement"
+    },
+    {
+      "name":"and",
+      "value":" and "
+    },
+    {
+      "name":"end",
+      "value":"."
+    },
+    {
+      "name":"read_and_agree",
+      "value":"read_and_agree"
+    },
+    {
+      "name": "hwid_no_internet_connect",
+      "value": "hwid_no_internet_connect"
+    },
+    {
+      "name": "bind_huaweiId_number",
+      "value": "bind_huaweiId_number"
+    },
+    {
+      "name": "read_and_agree_protocol",
+      "value": "read_and_agree_protocol"
+    },
+    {
+      "name": "avatar",
+      "value": "avatar"
+    },
+    {
+      "name": "nickName",
+      "value": "nickName"
+    },
+    {
+      "name": "save",
+      "value": "save"
+    },
+    {
+      "name": "personalInformation",
+      "value": "personalInformation"
+    },
+    {
+      "name": "log_out",
+      "value": "log_out"
+    },
+    {
+      "name": "special_exercises",
+      "value": "special exercises"
+    },
+    {
+      "name": "exercises_by_chapter",
+      "value": "exercises by chapter"
+    },
+    {
+      "name": "exercises_by_random",
+      "value": "exercises by random"
+    },
+    {
+      "name": "by_degree_of_difficulty",
+      "value": "by degree of difficulty"
+    },
+    {
+      "name": "by_question_type",
+      "value": "by question type"
+    },
+    {
+      "name": "subject_one",
+      "value": "subject one"
+    },
+    {
+      "name": "subject_two",
+      "value": "subject two"
+    },
+    {
+      "name": "subject_three",
+      "value": "subject three"
+    },
+    {
+      "name": "subject_four",
+      "value": "subject four"
+    },
+    {
+      "name": "screen_is_taking",
+      "value": "Screenshot is taking, please wait..."
+    },
+    {
+      "name": "button_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "save_album_success",
+      "value": "Saved to album"
+    },
+    {
+      "name": "sort_by_create_time",
+      "value": "sort_by_create_time"
+    },
+    {
+      "name": "sort_by_update_time",
+      "value": "sort_by_update_time"
+    },
+    {
+      "name": "sort_order",
+      "value": "sort_order"
+    },
+    {
+      "name": "confirm_delete_diary",
+      "value": "confirm_delete_diary"
+    },
+    {
+      "name": "delete",
+      "value": "delete"
+    },
+    {
+      "name": "move_to_other_category",
+      "value": "move_to_other_category"
+    },
+    {
+      "name": "copy_content",
+      "value": "copy_content"
+    },
+    {
+      "name": "no_match_note",
+      "value": "no_match_note"
+    },
+    {
+      "name": "homepage",
+      "value": "homepage"
+    },
+    {
+      "name": "search_note",
+      "value": "search_note"
+    },
+    {
+      "name": "delete_note",
+      "value": "delete_note"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "note_category",
+      "value": "note_category"
+    },
+    {
+      "name": "go_note_category",
+      "value": "go_note_category"
+    },
+    {
+      "name": "more",
+      "value": "more"
+    },
+    {
+      "name": "give_up",
+      "value": "give up"
+    },
+    {
+      "name": "save_tip",
+      "value": "save tip"
+    },
+    {
+      "name": "editor",
+      "value": "editor"
+    },
+    {
+      "name": "create_note",
+      "value": "create note"
+    },
+    {
+      "name": "privacyAgreementPath",
+      "value": "https://developer.huawei.com/"
+    },
+    {
+      "name": "no_question",
+      "value": "no question"
+    }
+  ]
+}

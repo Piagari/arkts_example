@@ -1,0 +1,89 @@
+{
+  "routerMap": [
+    {
+      "name": "QuickLoginPage",
+      "pageSourceFile": "src/main/ets/pages/mine/QuickLoginPage.ets",
+      "buildFunction": "QuickLoginPageBuilder",
+      "data": {
+        "description": "this is QuickLoginPage"
+      }
+    },
+    {
+      "name": "selectCityView",
+      "pageSourceFile": "src/main/ets/pages/SelectCityView.ets",
+      "buildFunction": "SelectCityViewBuilder",
+      "data": {
+        "description": "this is SelectCityView"
+      }
+    },
+    {
+      "name": "guidePage",
+      "pageSourceFile": "src/main/ets/pages/guide/GuidePage.ets",
+      "buildFunction": "GuidePageBuilder",
+      "data": {
+        "description": "this is guidePage"
+      }
+    },
+    {
+      "name": "specialExercisesView",
+      "pageSourceFile": "src/main/ets/pages/specialExercises/SpecialExercisesView.ets",
+      "buildFunction": "specialExercisesViewBuilder",
+      "data": {
+        "description": "this is specialExercisesView"
+      }
+    },
+    {
+      "name": "chapterListView",
+      "pageSourceFile": "src/main/ets/pages/specialExercises/ChapterListView.ets",
+      "buildFunction": "ChapterListViewBuilder",
+      "data": {
+        "description": "this is ChapterListView"
+      }
+    },
+    {
+      "name": "practiceView",
+      "pageSourceFile": "src/main/ets/pages/practice/PracticeView.ets",
+      "buildFunction": "PracticeViewBuilder"
+    },
+    {
+      "name": "collectionView",
+      "pageSourceFile": "src/main/ets/pages/collection/CollectionView.ets",
+      "buildFunction": "CollectionViewBuilder"
+    },
+    {
+      "name": "PersonalInfo",
+      "pageSourceFile": "src/main/ets/pages/mine/PersonalInfo.ets",
+      "buildFunction": "PersonalInfoBuilder"
+    },
+    {
+      "name": "PersonalSetting",
+      "pageSourceFile": "src/main/ets/pages/mine/PersonalSetting.ets",
+      "buildFunction": "PersonalSettingBuilder"
+    },
+    {
+      "name": "videoDetailView",
+      "pageSourceFile": "src/main/ets/pages/video/VideoDetailView.ets",
+      "buildFunction": "VideoDetailViewBuilder"
+    },
+    {
+      "name": "videoListView",
+      "pageSourceFile": "src/main/ets/pages/video/VideoListView.ets",
+      "buildFunction": "VideoListViewBuild"
+    },
+    {
+      "name": "SearchPage",
+      "pageSourceFile": "src/main/ets/pages/home/SearchPage.ets",
+      "buildFunction": "SearchPageBuilder"
+    },
+    {
+      "name": "PrivacyAgreement",
+      "pageSourceFile": "src/main/ets/pages/mine/PrivacyAgreement.ets",
+      "buildFunction": "PrivacyAgreementBuilder"
+    },
+    {
+      "name": "webContainer",
+      "pageSourceFile": "src/main/ets/components/WebContainer.ets",
+      "buildFunction": "WebContainerBuilder"
+    }
+  ]
+}

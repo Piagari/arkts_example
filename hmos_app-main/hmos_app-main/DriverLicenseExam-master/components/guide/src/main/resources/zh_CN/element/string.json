@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "guide_title",
+      "value": "驾考第一步 拿捏考题库"
+    },
+    {
+      "name": "subject_one",
+      "value": "科目一"
+    },
+    {
+      "name": "subject_two",
+      "value": "科目二"
+    },
+    {
+      "name": "subject_three",
+      "value": "科目三"
+    },
+    {
+      "name": "subject_four",
+      "value": "科目四"
+    },
+    {
+      "name": "select_city",
+      "value": "请选择考试城市"
+    },
+    {
+      "name": "select_license_type",
+      "value": "请选择驾照类型"
+    },
+    {
+      "name": "select_drive_stage",
+      "value": "请选择学车阶段"
+    },
+    {
+      "name": "little_car",
+      "value": "小汽车"
+    },
+    {
+      "name": "motorcycles",
+      "value": "摩托车"
+    },
+    {
+      "name": "truck",
+      "value": "卡车"
+    },
+    {
+      "name": "bus",
+      "value": "客车"
+    },
+    {
+      "name": "light_truck",
+      "value": "轻型牵引挂车"
+    },
+    {
+      "name": "finished",
+      "value": "完成"
+    },
+    {
+      "name": "please_select_city",
+      "value": "请选择城市"
+    },
+    {
+      "name": "go_select",
+      "value": "去选择"
+    }
+  ]
+}

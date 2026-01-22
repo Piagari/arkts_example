@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "easy_question",
+      "value": "easy question"
+    },
+    {
+      "name": "simple_question",
+      "value": "simple question"
+    },
+    {
+      "name": "normal_question",
+      "value": "normal question"
+    },
+    {
+      "name": "mistake_question",
+      "value": "mistake question"
+    },
+    {
+      "name": "difficult_question",
+      "value": "difficult question"
+    },
+    {
+      "name": "single_choice",
+      "value": "single choice"
+    },
+    {
+      "name": "true_or_false",
+      "value": "true or false"
+    },
+    {
+      "name": "video_url",
+      "value": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/ah-ultra/video/kv-intro-pop.mp4"
+    }
+  ]
+}

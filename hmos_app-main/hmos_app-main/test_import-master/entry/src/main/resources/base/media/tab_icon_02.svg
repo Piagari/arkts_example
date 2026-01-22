@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?><!--
+  -  Copyright (c) 2025 Huawei Device Co., Ltd.
+  -  Licensed under the Apache License, Version 2.0 (the "License");
+  -  you may not use this file except in compliance with the License.
+  -  You may obtain a copy of the License at
+  -
+  -      http://www.apache.org/licenses/LICENSE-2.0
+  -
+  -  Unless required by applicable law or agreed to in writing, software
+  -  distributed under the License is distributed on an "AS IS" BASIS,
+  -  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  -  See the License for the specific language governing permissions and
+  -  limitations under the License.
+  -
+  -->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg t="1718259954596" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     p-id="31491" width="256" height="256">
+    <path d="M914.285714 73.142857 658.285714 73.142857c-59.7504 0-112.892343 28.803657-146.285714 73.250743C478.608457 101.946514 425.464686 73.142857 365.714286 73.142857L109.714286 73.142857c-40.321829 0-73.142857 32.802743-73.142857 73.142857l0 676.571429c0 40.321829 32.786286 73.142857 73.142857 73.142857l268.856686 0c35.893029 35.072 83.642514 54.857143 133.429029 54.857143s97.536-19.785143 133.429029-54.857143L914.285714 896c40.321829 0 73.142857-32.786286 73.142857-73.142857L987.428571 146.285714C987.428571 105.963886 954.644114 73.142857 914.285714 73.142857zM914.285714 822.857143 629.608229 822.857143c-10.678857 0-20.821943 4.642743-27.785143 12.785371C578.929371 862.357943 546.179657 877.714286 512 877.714286s-66.929371-15.356343-89.821257-42.071771c-6.965029-8.142629-17.106286-12.785371-27.785143-12.785371L109.714286 822.857143 109.714286 146.285714l256 0c60.500114 0 109.714286 49.214171 109.714286 109.714286l0 310.857143c0 20.214857 16.356571 36.571429 36.571429 36.571429s36.571429-16.356571 36.571429-36.571429L548.571429 256c0-60.500114 49.214171-109.714286 109.714286-109.714286l256 0L914.285714 822.857143z"
+          fill="#2c2c2c" p-id="31492"></path>
+</svg>

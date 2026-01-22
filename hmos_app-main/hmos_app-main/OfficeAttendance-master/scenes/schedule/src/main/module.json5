@@ -1,0 +1,13 @@
+{
+  "module": {
+    "name": "schedule",
+    "type": "har",
+    "description": "$string:module_desc",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "routerMap": "$profile:router_map",
+    "requestPermissions":[]
+  }
+}

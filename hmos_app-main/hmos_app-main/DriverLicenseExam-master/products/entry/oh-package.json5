@@ -1,0 +1,17 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos_agcit/driver_license_exam_commonlib": "file:../../commons/commonLib",
+    "@ohos_agcit/driver_license_exam_datasource": "file:../../commons/datasource",
+    "@ohos_agcit/driver_license_exam_guide": "file:../../components/guide",
+    "module_city_select": "file:../../components/module_city_select",
+    "exam": "file:../../components/exam",
+    "search": "file:../../components/search"
+  }
+}
+

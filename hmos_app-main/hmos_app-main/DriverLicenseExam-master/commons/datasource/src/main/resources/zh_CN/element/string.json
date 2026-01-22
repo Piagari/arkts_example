@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "easy_question",
+      "value": "容易题"
+    },
+    {
+      "name": "simple_question",
+      "value": "简单题"
+    },
+    {
+      "name": "normal_question",
+      "value": "一般题"
+    },
+    {
+      "name": "mistake_question",
+      "value": "易错题"
+    },
+    {
+      "name": "difficult_question",
+      "value": "困难题"
+    },
+    {
+      "name": "single_choice",
+      "value": "单选题"
+    },
+    {
+      "name": "true_or_false",
+      "value": "判断题"
+    }
+  ]
+}

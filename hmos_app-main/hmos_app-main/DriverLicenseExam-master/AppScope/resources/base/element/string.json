@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "DriverLicenseExam"
+    },
+    {
+      "name": "agcit_huawei_driver_license_exam",
+      "value": "1.0.0"
+    },
+    {
+      "name": "agcittype_huawei_driver_license_exam",
+      "value": "industryTemplate"
+    },
+    {
+      "name": "agcitkid_huawei_driver_license_exam",
+      "value": "agcit_huawei_driver_license_exam_exam/1.0.0,agcit_huawei_driver_license_exam_guide/1.0.0,agcit_huawei_driver_license_exam_search/1.0.0"
+    }
+  ]
+}

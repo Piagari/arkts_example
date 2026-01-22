@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "login_title",
+      "value": "登录"
+    },
+    {
+      "name": "register_title",
+      "value": "注册"
+    },
+    {
+      "name": "verify_code",
+      "value": "验证码"
+    }
+  ]
+}
